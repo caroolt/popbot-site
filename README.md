@@ -24,7 +24,7 @@ O menu de navegação possui as seguintes opções:
 
 ## Paleta de cores
 Para este projeto, foi definida a seguinte paleta de cores:
-
+```
 Cor primária (preto): #15171B
 Cor secundária (preto): #2B2E34
 Cor primária (verde): #7EE081
@@ -34,7 +34,7 @@ Cor secundária (roxo): #480549
 Cor de destaque (roxo): #6D3CBB
 Cor primária (branco): #F4EDED
 Cor secundária (branco): #F2F2F2
-
+```
 Essas cores, além de outras para complementar, são utilizadas para estilizar os elementos da página, como fundos, textos e botões.
 
 ## Servidor de fontes - Google Fonts
