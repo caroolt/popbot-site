@@ -1,0 +1,10 @@
+@media(max-width: 1024px) {
+
+  .header-page {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    height: 20vh;
+    padding: 30px 0;
+  }
+}

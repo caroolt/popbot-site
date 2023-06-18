@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Chamada da Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS GERAL-->
+  <link rel="stylesheet" href="./css/colors.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- CSS HEADER -->
+  <link rel="stylesheet" href="./css/header.css">
+
+  <!-- CSS FOOTER -->
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <!-- CSS RESPONSIVO -->
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <!-- Icon -->
+  <link rel="shortcut icon" href="./images/balloon.ico" type="image/x-icon">
+  <title>PopBot</title>
+</head>
+
+<body>
+  <header id="header" class="header-page">
+    <img class="header-logo" src="./images/PopbotLogo-Branco.svg" alt="logo branca escrita PopBot">
+    <nav class="header-menu">
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#robocup">Robocup</a>
+        </li>
+        <li>
+          <a href="#nossorobo">Nosso Robô</a>
+        </li>
+        <li>
+          <a href="">Equipe</a>
+        </li>
+        <li>
+          <a class="gallery" href="">
+            Galeria
+            <i class="fa-solid fa-sort-down"></i>
+            <ul class="gallery-content">
+              <li><a href="">Processo</a></li>
+              <li><a href="">Fotos</a></li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a class="roboticaEducacional" href="">Robótica educacional</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-page">
+    <div id="home" class="home">
+      <div class="home-texts">
+        <h1>Descubra o futuro da educação com robótica!</h1>
+        <nav class="home-texts-links">
+          <ul>
+            <li><a href="#robocup">Conheça a Robocup</a></li>
+            <li><a id="popBotButton" href="#nossorobo">Conheça o PopBot</a></li>
+          </ul>
+        </nav>
+      </div>
+      <img src="./images/Wall-E-icon1.png" alt="wall-e">
+    </div>
+  
+    <div id="robocup" class="robocup-container">
+      <h2>Por Dentro da Competição RoboCup</h2>
+      <p>Robocup  é uma competição entre os Alunos dos 1°s anos de Sistemas de Informação que constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o adversário carrega.</p>
+  
+      <div class="robocup-image">
+        <div class="slider">
+          <img src="./images/robocupFirstImage.png" alt="Arena robocup com dois robôs competindo">
+
+          <div class="slider-prev">
+            <i class="fa-solid fa-play"></i>
+          </div>
+
+          <div class="slider-next">
+            <i class="fa-solid fa-play"></i>
+          </div>
+
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        
+        <div class="robocup-image-subtitles">
+          <div class="robocup-image-subtitles-title">
+            <img src="./images/bulletpoint-styled.svg" alt="Um bulletpoint estilizado que parece uma seta, mas com as bordas muito arredondadas">
+            <p>A competição mais antiga da FIAP</p>
+          </div>
+          
+          <p>Todas as máquinas possuem armas em seu corpo. Mas as regras também exigem o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma, só assim é considerado o vencedor.</p>
+  
+          <ul class="robocup-image-subtitles-features">
+            <li>O robô é desenvolvido por equipes de até 5 alunos.</li>
+            <li>Os robôs devem ser ligados apenas na arena, área de testes ou com pleno consentimento da comissão de segurança.</li>
+            <li>Todos os robôs devem ter capacidade de serem COMPLETAMENTE desativados.</li>
+            <li>O robô não deverá ter mais do que 30x30 cm e 20 cm de altura e um alcance de arma ativa de raio máximo de 25 cm.</li>
+          </ul>
+  
+        </div>
+      </div>
+    </div>
+
+    <div id="nossorobo" class="robo-container">
+      <div class="fake-toggle-container">
+        <div class="fake-toggle">
+         <div class="fake-toggle--text">
+          <h2>Conheça seu adversário</h2>
+         </div>
+         <div class="fake-toggle--image">
+          <img src="./images/walle-toggle.svg" alt="walle dentro de um circulo gradiente entre roxo e verde">
+         </div>
+        </div>
+      </div>
+      <div class="robot-char">
+          <!-- first card -->
+          <div class="robot-char--card">
+            <img src="./images/shield-icon.svg" alt="white shield inside a green circle">
+            <h3>Armas</h3>
+            <p>O Popbot possui três armas: uma na frente, duas atrás. A arma dianteira é uma alavanca com pregos e agulhas para ataque e defesa. As armas traseiras são cajados com bolas pontiagudas cheias de agulhas, que giram e atingem o inimigo.</p>
+          </div>
+
+          <!-- second card -->
+          <div class="robot-char--card">
+            <img src="./images/box-icon.svg" alt="white box inside a green circle">
+            <h3>Material</h3>
+            <p>Para o robô, escolhemos chapas de acrílico e uma base de MDF em forma de trapézio para facilitar a visualização da parte mecânica e dar um visual mais bonito com LEDs.</p>
+          </div>
+
+          <!-- first card -->
+          <div class="robot-char--card">
+            <img src="./images/chess-icon.svg" alt="white chess inside a green circle">
+            <h3>Estratégia</h3>
+            <p>Nossa estratégia consiste basicamente em proteger a frente e a parte de trás ao mesmo tempo, mantendo o robô adversário o mais longe possível do nosso balão.</p>
+          </div>
+
+          <!-- first card -->
+          <div class="robot-char--card">
+            <img src="./images/circuit-icon.svg" alt="white computer circuit inside a green circle">
+            <h3>Componentes</h3>
+            <p>O robô tem motores, chave alavanca, shields, protoboard, resistor de carbono, chapas de acrílico, fitas de LED, Arduino MEGA, soquete de pilhas, cabo USB, jumpers, LED e barra de pinos. São escolhidos para funcionalidade e estética.</p>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer-page">
+    <a class="scroll-to-top" href="#header">
+      <i class="fa-solid fa-up-long"></i>
+    </a>
+  </footer>
+</body>
+
+</html>
