@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   color: var(--color-primary-white);
 }
@@ -13,6 +12,9 @@ html {
 body {
   background: var(--color-primary-black);
   height: 2040px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Purple Highlight no início (lado esquerdo) */
@@ -47,11 +49,12 @@ body::after {
 }
 
 a {
-  font-size: 16px;
+  font-size: 90%;
   font-weight: 700;
   line-height: 24px;
   text-decoration: none;
   transition: .5s;
+  white-space: nowrap;
 }
 
 a:hover {
