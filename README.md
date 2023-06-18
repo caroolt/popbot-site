@@ -19,9 +19,7 @@ O menu de navegação possui as seguintes opções:
 - Robocup
 - Nosso Robô
 - Equipe
-- Galeria
- └── Processos
- └── Fotos
+- Galeria -> Processos, Fotos
 - Robótica educacional
 
 ## Paleta de cores
