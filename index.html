@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PopBot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <!-- Chamada da Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -21,160 +24,88 @@
   <link rel="stylesheet" href="./css/colors.css">
   <link rel="stylesheet" href="./css/styles.css">
 
-  <!-- CSS HEADER -->
-  <link rel="stylesheet" href="./css/header.css">
-
-  <!-- CSS FOOTER -->
-  <link rel="stylesheet" href="./css/footer.css">
-
-  <!-- CSS RESPONSIVO -->
-  <link rel="stylesheet" href="./css/responsive.css">
-
   <!-- Icon -->
   <link rel="shortcut icon" href="./images/balloon.ico" type="image/x-icon">
-  <title>PopBot</title>
 </head>
 
 <body>
-  <header id="header" class="header-page">
-    <img class="header-logo" src="./images/PopbotLogo-Branco.svg" alt="logo branca escrita PopBot">
-    <nav class="header-menu">
-      <ul>
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#robocup">Robocup</a>
-        </li>
-        <li>
-          <a href="#nossorobo">Nosso Robô</a>
-        </li>
-        <li>
-          <a href="">Equipe</a>
-        </li>
-        <li>
-          <a class="gallery" href="">
-            Galeria
-            <i class="fa-solid fa-sort-down"></i>
-            <ul class="gallery-content">
-              <li><a href="">Processo</a></li>
-              <li><a href="">Fotos</a></li>
-            </ul>
-          </a>
-        </li>
-        <li>
-          <a class="roboticaEducacional" href="">Robótica educacional</a>
-        </li>
-      </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg header px-4">
+      <div class="container-fluid">
+        <img src="./assets/PopbotLogo-Branco.svg" alt="">
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation ">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="#oportunity">Oportunidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#aboutus">Quem somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#gallery">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Armas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Hardware</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">PopTeam</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Robocup</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Empresa
+              </a>
+              <ul class="dropdown-menu header-dropdown">
+                <li><a class="dropdown-item text-light" href="#">Plano Estatístico</a></li>
+                <li><a class="dropdown-item text-light" href="#">Invista</a></li>
+                <li><a class="dropdown-item text-light" href="#">Marketing</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
-  <main class="main-page">
-    <div id="home" class="home">
-      <div class="home-texts">
-        <h1>Descubra o futuro da educação com robótica!</h1>
-        <nav class="home-texts-links">
-          <ul>
-            <li><a href="#robocup">Conheça a Robocup</a></li>
-            <li><a id="popBotButton" href="#nossorobo">Conheça o PopBot</a></li>
-          </ul>
-        </nav>
-      </div>
-      <img id="walle-central" src="./images/Wall-E-icon1.png" alt="wall-e">
+  <section id="oportunity" class="oportunity container my-5 d-flex gap-5 align-items-center">
+    <div class="col-12 col-md-6 d-flex flex-column gap-5 align-items-center"> 
+      <h1 class="text-center fw-bold">Descubra o futuro da educação com robótica!</h1>
+      <button type="button" class="btn col-8 fw-bold">Faça parte da revolução</button>
     </div>
-  
-    <div id="robocup" class="robocup-container">
-      <h2>Por Dentro da Competição RoboCup</h2>
-      <p>Robocup  é uma competição entre os Alunos dos 1°s anos de Sistemas de Informação que constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o adversário carrega.</p>
-  
-      <div class="robocup-image">
-        <div class="slider">
-          <img src="./images/robocupFirstImage.png" alt="Arena robocup com dois robôs competindo">
-
-          <div class="slider-prev">
-            <i class="fa-solid fa-play"></i>
-          </div>
-
-          <div class="slider-next">
-            <i class="fa-solid fa-play"></i>
-          </div>
-
-          <div class="dots">
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
-        
-        <div class="robocup-image-subtitles">
-          <div class="robocup-image-subtitles-title">
-            <img src="./images/bulletpoint-styled.svg" alt="Um bulletpoint estilizado que parece uma seta, mas com as bordas muito arredondadas">
-            <p>A competição mais antiga da FIAP</p>
-          </div>
-          
-          <p>Todas as máquinas possuem armas em seu corpo. Mas as regras também exigem o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma, só assim é considerado o vencedor.</p>
-  
-          <ul class="robocup-image-subtitles-features">
-            <li>O robô é desenvolvido por equipes de até 5 alunos.</li>
-            <li>Os robôs devem ser ligados apenas na arena, área de testes ou com pleno consentimento da comissão de segurança.</li>
-            <li>Todos os robôs devem ter capacidade de serem COMPLETAMENTE desativados.</li>
-            <li>O robô não deverá ter mais do que 30x30 cm e 20 cm de altura e um alcance de arma ativa de raio máximo de 25 cm.</li>
-          </ul>
-  
-        </div>
-      </div>
+    <div class="col-12 col-md-6">
+      <img class="img-fluid" src="./assets/Wall-E-icon1.png" alt="">
     </div>
+  </section>
 
-    <div id="nossorobo" class="robo-container">
-      <div class="fake-toggle-container">
-        <div class="fake-toggle">
-         <div class="fake-toggle--text">
-          <h2>Conheça seu adversário</h2>
-         </div>
-         <div class="fake-toggle--image">
-          <img src="./images/walle-toggle.svg" alt="walle dentro de um circulo gradiente entre roxo e verde">
-         </div>
-        </div>
-      </div>
-      <div class="robot-char">
-          <!-- first card -->
-          <div class="robot-char--card">
-            <img src="./images/shield-icon.svg" alt="white shield inside a green circle">
-            <h3>Armas</h3>
-            <p>O Popbot possui três armas: uma na frente, duas atrás. A arma dianteira é uma alavanca com pregos e agulhas para ataque e defesa. As armas traseiras são cajados com bolas pontiagudas cheias de agulhas, que giram e atingem o inimigo.</p>
-          </div>
+  <section id="aboutus" class="container my-5">
+    <h2 class="text-center fw-semibold">PopBot: Conquistando o Impossível</h2>
+    <div class="row"></div>
+  </section>
 
-          <!-- second card -->
-          <div class="robot-char--card">
-            <img src="./images/box-icon.svg" alt="white box inside a green circle">
-            <h3>Material</h3>
-            <p>Para o robô, escolhemos chapas de acrílico e uma base de MDF em forma de trapézio para facilitar a visualização da parte mecânica e dar um visual mais bonito com LEDs.</p>
-          </div>
-
-          <!-- first card -->
-          <div class="robot-char--card">
-            <img src="./images/chess-icon.svg" alt="white chess inside a green circle">
-            <h3>Estratégia</h3>
-            <p>Nossa estratégia consiste basicamente em proteger a frente e a parte de trás ao mesmo tempo, mantendo o robô adversário o mais longe possível do nosso balão.</p>
-          </div>
-
-          <!-- first card -->
-          <div class="robot-char--card">
-            <img src="./images/circuit-icon.svg" alt="white computer circuit inside a green circle">
-            <h3>Componentes</h3>
-            <p>O robô tem motores, chave alavanca, shields, protoboard, resistor de carbono, chapas de acrílico, fitas de LED, Arduino MEGA, soquete de pilhas, cabo USB, jumpers, LED e barra de pinos. São escolhidos para funcionalidade e estética.</p>
-          </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="footer-page">
-    <a class="scroll-to-top" href="#header">
-      <i class="fa-solid fa-up-long"></i>
-    </a>
-  </footer>
+  <section id="gallery" class="container my-5">
+    <h2 class="text-center fw-semibold mb-4">Pixels e Engrenagens: O Melhor do Popbot</h2>
+    
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
