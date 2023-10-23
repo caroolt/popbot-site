@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="./css/styles.css">
 
   <!-- Icon -->
-  <link rel="shortcut icon" href="./images/balloon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/balloon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
           aria-label="Toggle navigation ">
           <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse d-flex justify-content-center gap-5" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link text-light" aria-current="page" href="#oportunity">Oportunidade</a>
@@ -50,10 +50,10 @@
               <a class="nav-link text-light" href="#gallery">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Armas</a>
+              <a class="nav-link text-light" href="#hardware">Hardware</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Hardware</a>
+              <a class="nav-link text-light" href="#">Armas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Video</a>
@@ -84,7 +84,7 @@
     </nav>
   </header>
 
-  <section id="oportunity" class="oportunity container my-5 d-flex gap-5 align-items-center">
+  <section id="oportunity" class="oportunity container my-5 body-section d-flex gap-5 align-items-center">
     <div class="col-12 col-md-6 d-flex flex-column gap-5 align-items-center"> 
       <h1 class="text-center fw-bold">Descubra o futuro da educação com robótica!</h1>
       <button type="button" class="btn col-8 fw-bold">Faça parte da revolução</button>
@@ -94,15 +94,215 @@
     </div>
   </section>
 
-  <section id="aboutus" class="container my-5">
+  <section id="aboutus" class="container my-5 body-section">
     <h2 class="text-center fw-semibold">PopBot: Conquistando o Impossível</h2>
-    <div class="row"></div>
+    <div class="container"></div>
+    <div class="row d-flex justify-content-center align-items-center my-5">
+      <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+        <div class="card card-story" style="width: 18rem;">
+          <img src="./assets/Inicio.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light text-center mb-4">1. O Início da Jornada</h5>
+            <p class="card-text text-justify">Na jornada de criação do PopBot, nós do grupo PopTeam nos unimos para dar vida a uma visão. Nossas mentes estavam repletas de ideias, mas  logo enfrentamos desafios monumentais que testaram nossa determinação e engenho desde o início.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+        <div class="card card-story" style="width: 18rem;">
+          <img src="./assets/Desafios.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light text-center mb-4">2. Desafios Iniciais</h5>
+            <p class="card-text text-justify">Os obstáculos não demoraram a surgir. O grupo cometeu o erro de comprar componentes errados, forçando-nos a repensar nosso plano original. As armas escolhidas pareciam ter uma vontade própria, constantemente falhando e exigindo ajustes para que o PopBot estivesse pronto.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+        <div class="card card-story" style="width: 18rem;">
+          <img src="./assets/Reviravolta.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light text-center mb-4">3. A Reviravolta Crítica</h5>
+            <p class="card-text text-justify">No entanto, o verdadeiro teste ainda estava por vir. Um erro de corte no acrílico forçou uma reorganização completa do PopBot, criando um atraso crítico. Com apenas 2 minutos restantes, uma das armas falhou de forma espetacular, lançando o grupo em uma corrida desesperada contra o tempo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+        <div class="card card-story" style="width: 18rem;">
+          <img src="./assets/Determinação.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light text-center mb-4">4. Determinação</h5>
+            <p class="card-text text-justify">Nós não nos deixamos abater. Com determinação,  superamos cada obstáculo com resiliência. O resultado? Um robô  adaptado, pronto para cumprir seu propósito, mesmo com apenas duas armas. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+        <div class="card card-story" style="width: 18rem;">
+          <img src="./assets/Triunfo.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light text-center mb-4">5. Triunfo e Alívio</h5>
+            <p class="card-text text-justify">A jornada de criação do PopBot é uma história de perseverança, trabalho em equipe e capacidade de superar qualquer desafio. Provamos que, quando se está determinado, não importa quantos obstáculos apareçam, você pode triunfar e criar algo verdadeiramente incrível. O PopBot estava pronto, mas sua jornada estava apenas coemeçando.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="gallery" class="container my-5">
+  <section id="gallery" class="container my-5 body-section">
     <h2 class="text-center fw-semibold mb-4">Pixels e Engrenagens: O Melhor do Popbot</h2>
     
+
+    <div id="carouselExampleIndicators" class="carousel slide mt-5">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/robot/1.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/robot/2.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/robot/3.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/robot/4.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/robot/5.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/robot/6.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/robot/7.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/robot/8.svg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
+
+  <section id="hardware" class="container my-5 body-section">
+    <h2 class="text-center fw-semibold mb-4">Por Dentro  do PopBot</h2>
+    <p class="fs-5 text-center mb-5">O hardware do robô é composto por uma variedade de componentes cuidadosamente selecionados para garantir tanto funcionalidade quanto estética.</p>
+    
+    <div class="container">
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Arduino MEGA 2560</div>
+            O cérebro do nosso robô, responsável por processar informações e controlar os motores e sensores.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Cabo USB 2.0 BM/AM</div>
+            Usado para conectar o Arduino ao computador para programação e depuração.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Jumpers FF e MM</div>
+            Esses jumpers são usados para fazer conexões entre os componentes do robô.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Soquete de 6 pilhas AA</div>
+            Fonte de energia para alimentar o robô.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">LED de 3MM</div>
+            Componente utilizado para indicar estados ou informações visuais.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Resistor de filme de carbono de 390 Ohms</div>
+            Usado para controlar a corrente em circuitos específicos.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Barra de pinos macho</div>
+            Utilizada para fazer conexões entre os componentes.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Termo retrátil de 1,6mm</div>
+            Para isolar e proteger as conexões elétricas.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Motores</div>
+            Temos quatro motores no total - dois para movimentação e dois para acionar as armas do robô.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Chave de fim de curso</div>
+            Usada para detectar limites físicos em movimentos ou posições.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Shield de Motor e Shield de Bluetooth HC-06</div>
+            Componentes para controlar os motores e estabelecer comunicação via Bluetooth.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Transistor BD 135</div>
+            Componente eletrônico que amplifica sinais elétricos.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Protoboard de 400 pontos</div>
+            Usado para criar protótipos de circuitos eletrônicos.
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Resistor de Filme de Carbono 1/4 de Watt CR25 5% de tolerância 4k7 (4700 Ohms)</div>
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Chapas de acrílico transparente 3 milímetros</div>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+   
+  </section>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>

@@ -48,12 +48,30 @@ body::after {
   z-index: -1;
 }
 
-@media screen and (max-width: 430px) {
+
+.body-section {
+  margin-bottom: 10% !important;
+}
+
+@media screen and (max-width: 758px) {
   .oportunity {
     flex-direction: column;
   }
+
+  .body-section {
+    margin-bottom: 10rem !important;
+  }
 }
 
+@media screen and (max-width: 988px) {
+  .navbar-collapse {
+    display: block !important;
+  }
+
+  .collapse:not(.show) {
+    display: none !important;
+  }
+}
 
 .header-dropdown {
   background-color: var(--color-secondary-black);
@@ -75,4 +93,16 @@ body::after {
 .btn:hover {
   background-color: transparent;
   border: 2px solid var(--color-primary-green);
+}
+
+.card-story {
+  background: linear-gradient(158deg, #5A00C1 1.36%, #9D75CB 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  min-height: 700px; 
+  width: 90% !important;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+   color: white;
 }
