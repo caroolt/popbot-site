@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PopBot - Forms</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS GERAL-->
+  <link rel="stylesheet" href="./css/colors.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./assets/balloon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-dark">
+  <h2 class="text-center text-success my-5 fw-bold">SEJA SÓCIO</h2>
+
+  <section class="container">
+    <form class="w-75 m-auto border rounded p-4 d-flex  flex-column">
+      <div class="row">
+        <div class="col-12 col-md-6 my-3">
+          <label for="email" class="form-label text-light">Email</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          <span id="emailHelp" class="form-text text-light">Nunca compartilharemos seu e-mail com ninguém.</span>
+        </div>
+        <div class="col-12 col-md-6 my-3">
+          <label for="password" class="form-label text-light">Password</label>
+          <input type="password" class="form-control" id="password">
+        </div>
+        <div class="d-flex justify-content-start gap-2">
+          <input type="checkbox" class="form-check-input" id="termcheck">
+          <label class="form-check-label text-light form-text" for="termcheck">Li e aceito os Termos de Uso e Política
+            de Privacidade</label>
+        </div>
+        <div class="d-flex justify-content-end my-4">
+          <button type="submit" class="btn btn-info" id="acessar">Ser Sócio</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="./js/login.mjs"></script>
+</body>
+
+</html>
