@@ -61,6 +61,26 @@ body::after {
   .body-section {
     margin-bottom: 10rem !important;
   }
+
+  .invest-row {
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+    display: flex;
+    gap: 30px;
+  }
+
+  .invest-row-body  {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .invest-row-text {
+    text-align: center !important;
+  }
+
+  .middle {
+    flex-direction: column-reverse !important;
+  }
 }
 
 @media screen and (max-width: 988px) {
