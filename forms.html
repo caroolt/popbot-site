@@ -31,20 +31,24 @@
       <div class="row">
         <div class="col-12 col-md-6 my-3">
           <label for="email" class="form-label text-light">Email</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="email" required aria-describedby="emailHelp">
           <span id="emailHelp" class="form-text text-light">Nunca compartilharemos seu e-mail com ninguém.</span>
         </div>
         <div class="col-12 col-md-6 my-3">
           <label for="password" class="form-label text-light">Password</label>
-          <input type="password" class="form-control" id="password">
+          <input type="password" class="form-control" required id="password">
+        </div>
+        <div class="col-12 col-md-6 my-3">
+          <label for="date" class="form-label text-light">Agende a Reunião</label>
+          <input type="date" class="form-control" required id="date">
         </div>
         <div class="d-flex justify-content-start gap-2">
-          <input type="checkbox" class="form-check-input" id="termcheck">
+          <input type="checkbox" class="form-check-input"  required id="termcheck">
           <label class="form-check-label text-light form-text" for="termcheck">Li e aceito os Termos de Uso e Política
             de Privacidade</label>
         </div>
         <div class="d-flex justify-content-end my-4">
-          <button type="submit" class="btn btn-info" id="acessar">Ser Sócio</button>
+          <button type="submit" class="btn" id="acessar">Ser Sócio</button>
         </div>
       </div>
     </form>

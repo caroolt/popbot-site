@@ -80,6 +80,21 @@ body::after {
   .middle {
     flex-direction: column-reverse !important;
   }
+
+
+  .section-socios h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section-socios p {
+    text-align: center;
+  }
+
+
+  .section-socios a {
+    width: 100%;
+    }
 }
 
 @media screen and (max-width: 988px) {
@@ -142,8 +157,7 @@ body::after {
 }
 
 .image-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.781)),
-url('../assets/robotic.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.781)), url('../assets/robotic.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px -2px 16px 0px rgba(0, 0, 0, 0.637) inset;
